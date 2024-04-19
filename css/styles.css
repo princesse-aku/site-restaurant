@@ -172,8 +172,10 @@ nav.menu ul li a {
 }
 
 section {
-  padding: 8px auto;
+  padding: 8px;
   font-family: "Martel", serif;
+  display: flex;
+  justify-content: center;
 }
 
 .item-infos {
@@ -197,6 +199,10 @@ section {
 
 section img {
   width: 330px;
+}
+
+.item-container {
+  width: 80%;
 }
 
 /* .fixed-menu {
