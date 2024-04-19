@@ -202,17 +202,17 @@ section img {
 .fixed-menu {
   position: fixed;
   top: 0;
-  right: 0;
-  width: 200px; /* Largeur réduite du menu */
-  height: 100%; /* Hauteur pour couvrir toute la hauteur de la fenêtre */
-  background-color: #1695da; /* Couleur de fond (exemple: couleur initiale du body) */
+  /* right: 0; */
+  width: 200px;
+  height: 100%;
+  background-color: #1695da;
   z-index: 1000;
   display: flex;
-  flex-direction: column; /* Les éléments du menu sont disposés verticalement */
-  align-items: center; /* Centrer les éléments du menu horizontalement */
+  flex-direction: column;
+  align-items: center;
 }
 
-.fixed-menu + nav.menu ul {
+/* .fixed-menu + nav.menu ul {
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -221,8 +221,8 @@ section img {
 }
 
 .fixed-menu + .nav-item {
-  width: 100%; /* Permettre aux éléments de s'étendre complètement horizontalement */
-  padding: 10px; /* Ajuster le padding selon le besoin */
-  box-sizing: border-box; /* Assurer que le padding ne dépasse pas la largeur assignée */
-  text-align: center; /* Centrer le texte à l'intérieur de chaque nav-item */
-}
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+} */
